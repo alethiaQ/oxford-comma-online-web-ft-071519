@@ -1,5 +1,9 @@
 def oxford_comma(array)
+  my_string = ""
 array(0..1).each do |element|
-  element.to_s
-
+    my_string << element.to_s + ", "
+end
+last = array.pop
+my_string << ", and "
+my_string << last
 end
