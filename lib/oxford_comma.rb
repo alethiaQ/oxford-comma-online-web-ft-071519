@@ -6,4 +6,5 @@ end
 last = array.pop
 my_string << ", and "
 my_string << last
+return my_string
 end
