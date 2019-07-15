@@ -6,6 +6,6 @@ when  1
 when 2
   return array.join(" and ")
 else
-  return array.(length -1).join(", ") + ", and" + array.last.to_s
+  return array.length-1.join(", ") + ", and" + array.last.to_s
 end
 end
