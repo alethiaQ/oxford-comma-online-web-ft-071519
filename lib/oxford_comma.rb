@@ -1,3 +1,5 @@
 def oxford_comma(array)
-return array(0..1).join(", ")  << ", and " + array.last
+array(0..1).each do |element|
+  element.to_s
+
 end
