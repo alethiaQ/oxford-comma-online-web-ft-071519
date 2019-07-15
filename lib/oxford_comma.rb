@@ -1,4 +1,3 @@
 def oxford_comma(array)
-last = array.pop
-array.join(", ") + ", and " + last.to_s
+return array(0..1).join(", ") + << ", and " + array.last
 end
