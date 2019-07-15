@@ -6,6 +6,9 @@ when  1
 when 2
   return array.join(" and ")
 else
-  return array.length-1.join(", ") + ", and" + array.last.to_s
+  sentence = ""
+  last = array.pop
+  sentence << array.join(", ") + ", and " + last.to_s
+  return sentence
 end
 end
